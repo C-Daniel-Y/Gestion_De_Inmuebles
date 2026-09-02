@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+nombre_ambiente/
+db.sqlite3
+*.log
+.env
+.pytest_cache/
+tmp/
+django-server*.log
