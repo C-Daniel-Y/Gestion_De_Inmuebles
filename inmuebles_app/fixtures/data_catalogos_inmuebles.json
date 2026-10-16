@@ -1,0 +1,255 @@
+[
+{
+  "model": "inmuebles_app.tipoinmueble",
+  "pk": 1,
+  "fields": {
+    "tipo": "Casa",
+    "descripcion": "Inmueble residencial unifamiliar independiente o en condominio.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.379",
+    "updated_at": "2026-10-14T12:07:14.379"
+  }
+},
+{
+  "model": "inmuebles_app.tipoinmueble",
+  "pk": 2,
+  "fields": {
+    "tipo": "Departamento",
+    "descripcion": "Unidad residencial dentro de edificio en altura.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.385",
+    "updated_at": "2026-10-14T12:07:14.385"
+  }
+},
+{
+  "model": "inmuebles_app.tipoinmueble",
+  "pk": 3,
+  "fields": {
+    "tipo": "Oficina",
+    "descripcion": "Espacio comercial o profesional habilitado para actividades laborales.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.390",
+    "updated_at": "2026-10-14T12:07:14.390"
+  }
+},
+{
+  "model": "inmuebles_app.tipoinmueble",
+  "pk": 4,
+  "fields": {
+    "tipo": "Local Comercial",
+    "descripcion": "Inmueble destinado a venta directa al público o servicios.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.395",
+    "updated_at": "2026-10-14T12:07:14.395"
+  }
+},
+{
+  "model": "inmuebles_app.tipoinmueble",
+  "pk": 5,
+  "fields": {
+    "tipo": "Parcela",
+    "descripcion": "Terreno rural o semi-urbano con fines residenciales o recreativos.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.400",
+    "updated_at": "2026-10-14T12:07:14.400"
+  }
+},
+{
+  "model": "inmuebles_app.tipoinmueble",
+  "pk": 6,
+  "fields": {
+    "tipo": "Bodega",
+    "descripcion": "Espacio para almacenamiento de bienes y mercaderías.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.406",
+    "updated_at": "2026-10-14T12:07:14.406"
+  }
+},
+{
+  "model": "inmuebles_app.tipoinmueble",
+  "pk": 7,
+  "fields": {
+    "tipo": "Terreno",
+    "descripcion": "Sitio eriazo o lote para desarrollo inmobiliario.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.411",
+    "updated_at": "2026-10-14T12:07:14.411"
+  }
+},
+{
+  "model": "inmuebles_app.tipooperacion",
+  "pk": 1,
+  "fields": {
+    "operacion": "Venta",
+    "descripcion": "Traspaso de propiedad a cambio de contraprestación económica.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.417",
+    "updated_at": "2026-10-14T12:07:14.417"
+  }
+},
+{
+  "model": "inmuebles_app.tipooperacion",
+  "pk": 2,
+  "fields": {
+    "operacion": "Arriendo",
+    "descripcion": "Cesión temporal del uso y goce del inmueble mediante canon mensual.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.422",
+    "updated_at": "2026-10-14T12:07:14.422"
+  }
+},
+{
+  "model": "inmuebles_app.tipooperacion",
+  "pk": 3,
+  "fields": {
+    "operacion": "Arriendo Temporal",
+    "descripcion": "Arriendo por períodos breves o vacacionales.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.428",
+    "updated_at": "2026-10-14T12:07:14.428"
+  }
+},
+{
+  "model": "inmuebles_app.estadoinmueble",
+  "pk": 1,
+  "fields": {
+    "estado": "Disponible",
+    "descripcion": "Inmueble listo para recibir ofertas y coordinar visitas.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.433",
+    "updated_at": "2026-10-14T12:07:14.433"
+  }
+},
+{
+  "model": "inmuebles_app.estadoinmueble",
+  "pk": 2,
+  "fields": {
+    "estado": "Reservado",
+    "descripcion": "Inmueble con promesa u oferta aceptada en proceso de cierre.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.438",
+    "updated_at": "2026-10-14T12:07:14.438"
+  }
+},
+{
+  "model": "inmuebles_app.estadoinmueble",
+  "pk": 3,
+  "fields": {
+    "estado": "Vendido",
+    "descripcion": "Operación de venta formalizada.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.444",
+    "updated_at": "2026-10-14T12:07:14.444"
+  }
+},
+{
+  "model": "inmuebles_app.estadoinmueble",
+  "pk": 4,
+  "fields": {
+    "estado": "Arrendado",
+    "descripcion": "Contrato de arriendo activo.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.448",
+    "updated_at": "2026-10-14T12:07:14.448"
+  }
+},
+{
+  "model": "inmuebles_app.estadoinmueble",
+  "pk": 5,
+  "fields": {
+    "estado": "En Mantención",
+    "descripcion": "Propiedad en mejoras, reparaciones o trámites legales.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.454",
+    "updated_at": "2026-10-14T12:07:14.454"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 1,
+  "fields": {
+    "nombre": "Piscina",
+    "descripcion": "Piscina para uso privado o comunitario.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.459",
+    "updated_at": "2026-10-14T12:07:14.459"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 2,
+  "fields": {
+    "nombre": "Estacionamiento",
+    "descripcion": "Plaza de aparcamiento asignada o privada.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.464",
+    "updated_at": "2026-10-14T12:07:14.464"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 3,
+  "fields": {
+    "nombre": "Bodega",
+    "descripcion": "Espacio adicional para almacenaje en subterráneo o patio.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.470",
+    "updated_at": "2026-10-14T12:07:14.470"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 4,
+  "fields": {
+    "nombre": "Quincho",
+    "descripcion": "Área techada para asados y reuniones.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.475",
+    "updated_at": "2026-10-14T12:07:14.475"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 5,
+  "fields": {
+    "nombre": "Seguridad 24/7",
+    "descripcion": "Conserjería y vigilancia permanente con cámaras y control de acceso.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.481",
+    "updated_at": "2026-10-14T12:07:14.481"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 6,
+  "fields": {
+    "nombre": "Gimnasio",
+    "descripcion": "Área de entrenamiento comunitario.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.486",
+    "updated_at": "2026-10-14T12:07:14.486"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 7,
+  "fields": {
+    "nombre": "Calefacción Central",
+    "descripcion": "Sistema central de climatización o losa radiante.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.491",
+    "updated_at": "2026-10-14T12:07:14.491"
+  }
+},
+{
+  "model": "inmuebles_app.caracteristica",
+  "pk": 8,
+  "fields": {
+    "nombre": "Ascensor",
+    "descripcion": "Elevador en edificio.",
+    "habilitado": true,
+    "created_at": "2026-10-14T12:07:14.496",
+    "updated_at": "2026-10-14T12:07:14.496"
+  }
+}
+]

@@ -5,7 +5,7 @@ venv/
 nombre_ambiente/
 db.sqlite3
 *.log
-.env
+# .env se incluye por requisito de esta evaluación; usar solo credenciales temporales.
 .pytest_cache/
 tmp/
 django-server*.log
